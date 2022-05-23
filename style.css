@@ -14,6 +14,16 @@ header .navbar {
   margin: 0;
 }
 .footer {
-  background-color: #1d8348;
+  background-color: #515a5a;
   margin: 0;
+}
+.carta {
+  color: black;
+}
+.section1 {
+  background-image: url(./images/fondo-pared.jpg);
+  color: white;
+}
+.contacto {
+  color: black;
 }
