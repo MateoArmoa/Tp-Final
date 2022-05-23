@@ -21,7 +21,7 @@ header .navbar {
   color: black;
 }
 .section1 {
-  background-image: url(./images/fondo-pared.jpg);
+  background-image: url(/images/fondo-pared.jpg);
   color: white;
 }
 .contacto {
