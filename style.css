@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  overflow: auto;
+}
+
+header .navbar {
+  background-color: #515a5a;
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  background-color: #1d8348;
+  margin: 0;
+}
