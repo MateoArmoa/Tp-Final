@@ -197,3 +197,7 @@ main.row.rowover {
   line-height: 1.5;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.section2 {
+  background-color: #000;
+  color: #fff;
+}
