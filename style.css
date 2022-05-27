@@ -109,7 +109,31 @@ header .navbar {
   background-size: cover;
   background-position: center;
 }
-main.row.rower {
+main.row.rowover {
   align-items: center;
   text-align: center;
+}
+.container-contactos {
+  background-color: #000;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.formulario-container {
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Old Standard TT", serif;
+}
+.row {
+  align-items: center;
+  text-align: center;
+}
+.form-create {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
 }
