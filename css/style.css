@@ -68,6 +68,7 @@
   font-family: monospace;
   text-transform: uppercase;
   text-decoration: underline;
+  font-size: small;
 }
 
 .form-create {
@@ -76,9 +77,8 @@
 }
 
 .animated-text {
-  font-size: 11rem;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400%
-    100%;
+  font-size: 5rem;
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400% 100%;
   animation: move-bg 4s infinite linear;
   color: white;
   background-clip: text;
@@ -89,27 +89,17 @@
     background-position: 0%;
   }
 }
-.centrar,
-.section,
-.row,
-.menu-carta-container,
-.cartaMenu {
+.text-start {
+  max-width: 100%;
+}
+
+.centrar, .section, .row, .menu-carta-container, .cartaMenu {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.background,
-.img-lafav,
-.img-tuc,
-.img-postre1,
-.img-meri,
-.img-trago1,
-.img-show3,
-.img-show2,
-.img-show,
-.galeria-container,
-main.row.rowover {
+.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
   background-size: cover;
   background-position: center;
 }
@@ -246,7 +236,6 @@ body {
 
 .header {
   font-family: Times New Roman ", Times, serif";
-  background-color: #515a5a;
 }
 
 .rowover {
@@ -269,15 +258,16 @@ body {
 .section-shows {
   background-color: #000;
   color: #fff;
+  font-size: medium;
 }
 
 .section2 {
   background-color: #000;
 }
 
-.titulo-contacto {
+.titulo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 350px;
+  font-size: 500px;
 }
 
 .texto {
