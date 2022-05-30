@@ -43,6 +43,10 @@ header .navbar {
   border: solid 5px #fff;
   color: orange;
 }
+.ubicaciones {
+  padding: 1%;
+}
+
 .galeria-lugares {
   background-color: orange;
   color: black;
