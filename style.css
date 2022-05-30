@@ -16,6 +16,15 @@ header .navbar {
   padding: 0;
   margin: 0;
 }
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 500px;
+}
+.texto {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .footer {
   background-color: #515a5a;
   margin: 0;
@@ -35,6 +44,10 @@ header .navbar {
 }
 .section1 {
   color: white;
+}
+.section-shows {
+  background-color: #000;
+  color: #fff;
 }
 .sec-ubi {
   background-color: black;
@@ -229,4 +242,9 @@ main.row.rowover {
 }
 .beb {
   color: #fff;
+}
+.titulo-contacto {
+  font-family: monospace;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
