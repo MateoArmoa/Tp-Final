@@ -110,13 +110,27 @@ textarea {
     width: 100%;
   }
 }
-.centrar, .section, .row, .menu-carta-container, .cartaMenu {
+.centrar,
+.section,
+.row,
+.menu-carta-container,
+.cartaMenu {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
+.background,
+.img-lafav,
+.img-tuc,
+.img-postre1,
+.img-meri,
+.img-trago1,
+.img-show3,
+.img-show2,
+.img-show,
+.galeria-container,
+main.row.rowover {
   background-size: cover;
   background-position: center;
 }
