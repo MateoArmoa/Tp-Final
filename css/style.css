@@ -62,6 +62,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Old Standard TT", serif;
+  max-width: 100%;
 }
 
 .titulo-contacto {
@@ -69,6 +70,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-size: small;
+  max-width: 100%;
 }
 
 .form-create {
@@ -78,7 +80,8 @@
 
 .animated-text {
   font-size: 5rem;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400% 100%;
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400%
+    100%;
   animation: move-bg 4s infinite linear;
   color: white;
   background-clip: text;
@@ -93,13 +96,31 @@
   max-width: 100%;
 }
 
-.centrar, .section, .row, .menu-carta-container, .cartaMenu {
+.label-form {
+  max-width: 100%;
+}
+
+.centrar,
+.section,
+.row,
+.menu-carta-container,
+.cartaMenu {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
+.background,
+.img-lafav,
+.img-tuc,
+.img-postre1,
+.img-meri,
+.img-trago1,
+.img-show3,
+.img-show2,
+.img-show,
+.galeria-container,
+main.row.rowover {
   background-size: cover;
   background-position: center;
 }

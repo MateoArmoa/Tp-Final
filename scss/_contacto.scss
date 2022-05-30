@@ -11,6 +11,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-size: small;
+  max-width: 100%;
 }
 .form-create {
   background-color: rgb(41, 40, 40);
@@ -30,5 +31,8 @@
   }
 }
 .text-start {
+  max-width: 100%;
+}
+.label-form {
   max-width: 100%;
 }
