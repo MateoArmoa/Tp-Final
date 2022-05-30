@@ -3,7 +3,7 @@
 }
 
 .menu-carta-container {
-  background-image: url(./images/fondo-para-menu.jpg);
+  background-image: url(../images/fondo-para-menu.jpg);
 }
 
 .cartaMenu {
@@ -91,6 +91,7 @@
 .centrar, .section, .row, .menu-carta-container, .cartaMenu {
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
@@ -157,56 +158,56 @@
 }
 .img-show {
   grid-area: auto;
-  background-image: url(./images/show.jpg);
+  background-image: url(../images/show.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-show2 {
   grid-area: auto;
-  background-image: url(./images/show2.jpg);
+  background-image: url(../images/show2.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-show3 {
   grid-area: auto;
-  background-image: url(./images/show3.jpg);
+  background-image: url(../images/show3.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-trago1 {
   grid-area: auto;
-  background-image: url(./images/trago1.jpg);
+  background-image: url(../images/trago1.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-meri {
   grid-area: auto;
-  background-image: url(./images/merienda.png);
+  background-image: url(../images/merienda.png);
   height: 300px;
   width: 300px;
 }
 
 .img-postre1 {
   grid-area: auto;
-  background-image: url(./images/postre1.jpg);
+  background-image: url(../images/postre1.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-tuc {
   grid-area: auto;
-  background-image: url(./images/tucuman.jpg);
+  background-image: url(../images/tucuman.jpg);
   height: 300px;
   width: 300px;
 }
 
 .img-lafav {
   grid-area: auto;
-  background-image: url(./images/lafav.jpg);
+  background-image: url(../images/lafav.jpg);
   height: 300px;
   width: 300px;
 }
@@ -242,6 +243,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 .section1 {
