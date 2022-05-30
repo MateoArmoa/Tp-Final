@@ -1,44 +1,48 @@
-.formulario-container {
-  color: #fff;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Old Standard TT", serif;
-  max-width: 100%;
-}
-.titulo-contacto {
+body {
+  background-image: url(../images/fondo-formulario.jpg);
+  background-size: 100vw 100vh;
+  margin: 0;
   font-family: monospace;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: small;
-  max-width: 100%;
 }
-.form-create {
-  background-color: rgb(41, 40, 40);
+form {
+  width: 450px;
+  margin: auto;
+  background: #000;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+h2 {
   color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+textarea {
+  min-height: 100px;
+  max-height: 200px;
   max-width: 100%;
 }
-.animated-text {
-  font-size: 5rem;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/ 400%
-    100%;
-  animation: move-bg 4s infinite linear;
-  color: white;
-  background-clip: text;
+#boton {
+  background: #31384a;
+  color: #fff;
+  padding: 20px;
 }
-@keyframes move-bg {
-  to {
-    background-position: 100% %100;
-    max-width: 100%;
+#boton:hover {
+  cursor: pointer;
+}
+@media (max-widht: 480px) {
+  form {
+    width: 100%;
   }
-}
-.text-start {
-  max-width: 100%;
-}
-.label-form {
-  max-width: 100%;
-}
-.container-contacto {
-  max-width: 100%;
 }
