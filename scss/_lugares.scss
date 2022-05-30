@@ -1,8 +1,8 @@
 .sec-ubi {
-  background-color: $secundary-color;
+  background-color: #000;
 }
 .ubis {
-  border: solid 5px $info;
+  border: solid 5px #fff;
   color: orange;
 }
 .ubicaciones {
@@ -11,10 +11,10 @@
 
 .galeria-lugares {
   background-color: orange;
-  color: $secundary-color;
+  color: #000;
 }
 .galeria-container {
-  background-color: $secundary-color;
+  background-color: #000;
   @extend .background;
   display: grid;
   padding: 1%;

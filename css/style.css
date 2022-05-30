@@ -1,17 +1,270 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "menu";
- *   |         ^^^^^^
- *   '
- *   scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"menu\";\d\a   \2502          ^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
+.carta {
+  color: #000;
 }
+
+.menu-carta-container {
+  background-image: url(./images/fondo-para-menu.jpg);
+}
+
+.cartaMenu {
+  margin: 20px;
+  display: inline-block;
+}
+
+.beb {
+  color: #fff;
+}
+
+.tituloMenu {
+  border: solid 5px #fff;
+  color: #fff;
+}
+
+.card {
+  width: 190px;
+  padding: 0.8em;
+  background: #000;
+  color: #000;
+  position: relative;
+  overflow: visible;
+  box-shadow: 4 1px 3px rgb(255, 255, 255), 0 1px 2px rgba(255, 225, 0, 0.24);
+}
+
+.card-image {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+}
+
+.text-titulo {
+  padding-bottom: 50%;
+  height: 1vh;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.formulario-container {
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Old Standard TT", serif;
+}
+
+.titulo-contacto {
+  font-family: monospace;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.form-create {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+
+.animated-text {
+  font-size: 11rem;
+  background: linear-gradient(90deg, #000, rgb(255, 255, 255)) 0 0/400% 100%;
+  animation: move-bg 4s infinite linear;
+  color: transparent;
+  background-clip: text;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}
+.centrar, .section, .row, .menu-carta-container, .cartaMenu {
+  align-items: center;
+  text-align: center;
+}
+
+.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  background-color: #515a5a;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.redes {
+  padding-top: 15px;
+}
+
+.contacto {
+  padding-top: 15px;
+}
+
+.header {
+  font-family: Times New Roman ", Times, serif";
+}
+.header .navbar {
+  background-color: #515a5a;
+  padding: 0;
+  margin: 0;
+}
+
+.sec-ubi {
+  background-color: #000;
+}
+
+.ubis {
+  border: solid 5px #fff;
+  color: orange;
+}
+
+.ubicaciones {
+  padding: 1%;
+}
+
+.galeria-lugares {
+  background-color: orange;
+  color: #000;
+}
+
+.galeria-container {
+  background-color: #000;
+  display: grid;
+  padding: 1%;
+  max-width: 100%;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 800px) {
+  .galeria-container {
+    display: block;
+    width: 100%;
+  }
+}
+.img-show {
+  grid-area: auto;
+  background-image: url(./images/show.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-show2 {
+  grid-area: auto;
+  background-image: url(./images/show2.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-show3 {
+  grid-area: auto;
+  background-image: url(./images/show3.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-trago1 {
+  grid-area: auto;
+  background-image: url(./images/trago1.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-meri {
+  grid-area: auto;
+  background-image: url(./images/merienda.png);
+  height: 300px;
+  width: 300px;
+}
+
+.img-postre1 {
+  grid-area: auto;
+  background-image: url(./images/postre1.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-tuc {
+  grid-area: auto;
+  background-image: url(./images/tucuman.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+.img-lafav {
+  grid-area: auto;
+  background-image: url(./images/lafav.jpg);
+  height: 300px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  .galeria-container {
+    display: block;
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  overflow: auto;
+}
+
+.header {
+  font-family: Times New Roman ", Times, serif";
+}
+
+.rowover {
+  --bs-gutter-x: 0;
+}
+
+.section {
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  color: #fff;
+}
+
+.section-shows {
+  background-color: #000;
+  color: #fff;
+}
+
+.section2 {
+  background-color: #000;
+}
+
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 500px;
+}
+
+.texto {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=style.css.map */
