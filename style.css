@@ -7,6 +7,9 @@ body {
   background-color: black;
   overflow: auto;
 }
+.header {
+  font-family: "Times New Roman", Times, serif;
+}
 
 header .navbar {
   background-color: #515a5a;
@@ -16,9 +19,19 @@ header .navbar {
 .footer {
   background-color: #515a5a;
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 .carta {
   color: black;
+}
+.section {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .section1 {
   color: white;
@@ -132,6 +145,9 @@ main.row.rowover {
 .row {
   align-items: center;
   text-align: center;
+}
+.rowover {
+  --bs-gutter-x: 0;
 }
 .form-create {
   background-color: rgb(41, 40, 40);
