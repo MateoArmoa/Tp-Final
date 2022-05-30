@@ -77,7 +77,8 @@
 
 .animated-text {
   font-size: 11rem;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400% 100%;
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(121, 120, 120)) 0 0/400%
+    100%;
   animation: move-bg 4s infinite linear;
   color: white;
   background-clip: text;
@@ -88,13 +89,27 @@
     background-position: 0%;
   }
 }
-.centrar, .section, .row, .menu-carta-container, .cartaMenu {
+.centrar,
+.section,
+.row,
+.menu-carta-container,
+.cartaMenu {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
+.background,
+.img-lafav,
+.img-tuc,
+.img-postre1,
+.img-meri,
+.img-trago1,
+.img-show3,
+.img-show2,
+.img-show,
+.galeria-container,
+main.row.rowover {
   background-size: cover;
   background-position: center;
 }
@@ -231,6 +246,7 @@ body {
 
 .header {
   font-family: Times New Roman ", Times, serif";
+  background-color: #515a5a;
 }
 
 .rowover {
@@ -259,9 +275,9 @@ body {
   background-color: #000;
 }
 
-.titulo {
+.titulo-contacto {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 500px;
+  font-size: 350px;
 }
 
 .texto {
