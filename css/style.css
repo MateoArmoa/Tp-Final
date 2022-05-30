@@ -114,10 +114,10 @@
 }
 
 .header {
-  background-color: #515a5a;
   font-family: Times New Roman ", Times, serif";
 }
 .header .navbar {
+  background-color: #515a5a;
   padding: 0;
   margin: 0;
 }
