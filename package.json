@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Rosario, Santa Fe",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoArmoa/Tp-Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoArmoa/Tp-Final/issues"
+  },
+  "homepage": "https://github.com/MateoArmoa/Tp-Final#readme"
+}

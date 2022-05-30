@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $secundary-color;
+  overflow: auto;
+}
+.header {
+  font-family: $font-family-sans-serif;
+}
+.rowover {
+  --bs-gutter-x: 0;
+}

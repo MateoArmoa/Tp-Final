@@ -1,0 +1,87 @@
+.sec-ubi {
+  background-color: $secundary-color;
+}
+.ubis {
+  border: solid 5px $info;
+  color: orange;
+}
+.ubicaciones {
+  padding: 1%;
+}
+
+.galeria-lugares {
+  background-color: orange;
+  color: $secundary-color;
+}
+.galeria-container {
+  background-color: $secundary-color;
+  @extend .background;
+  display: grid;
+  padding: 1%;
+  max-width: 100%;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+@media only screen and (max-width: 800px) {
+  .galeria-container {
+    display: block;
+    width: 100%;
+  }
+}
+.img-show {
+  grid-area: auto;
+  background-image: url(./images/show.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-show2 {
+  grid-area: auto;
+  background-image: url(./images/show2.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-show3 {
+  grid-area: auto;
+  background-image: url(./images/show3.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-trago1 {
+  grid-area: auto;
+  background-image: url(./images/trago1.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-meri {
+  grid-area: auto;
+  background-image: url(./images/merienda.png);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-postre1 {
+  grid-area: auto;
+  background-image: url(./images/postre1.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-tuc {
+  grid-area: auto;
+  background-image: url(./images/tucuman.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}
+.img-lafav {
+  grid-area: auto;
+  background-image: url(./images/lafav.jpg);
+  height: 300px;
+  width: 300px;
+  @extend .background;
+}

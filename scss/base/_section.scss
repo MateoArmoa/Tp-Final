@@ -1,0 +1,26 @@
+.section {
+  display: inline-block;
+  justify-content: center;
+  @extend .centrar;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  color: $info;
+}
+.section-shows {
+  background-color: $secundary-color;
+  color: $info;
+}
+.section2 {
+  background-color: $secundary-color;
+}
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 500px;
+}
+.texto {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
