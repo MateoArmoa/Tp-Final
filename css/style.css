@@ -55,11 +55,12 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-body {
-  background-image: url(../images/fondo-formulario.jpg);
+.body-contacto {
+  background-color: #000;
   background-size: 100vw 100vh;
   margin: 0;
   font-family: monospace;
+  color: #fff;
 }
 
 form {
@@ -110,27 +111,13 @@ textarea {
     width: 100%;
   }
 }
-.centrar,
-.section,
-.row,
-.menu-carta-container,
-.cartaMenu {
+.centrar, .section, .row, .menu-carta-container, .cartaMenu {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.background,
-.img-lafav,
-.img-tuc,
-.img-postre1,
-.img-meri,
-.img-trago1,
-.img-show3,
-.img-show2,
-.img-show,
-.galeria-container,
-main.row.rowover {
+.background, .img-lafav, .img-tuc, .img-postre1, .img-meri, .img-trago1, .img-show3, .img-show2, .img-show, .galeria-container, main.row.rowover {
   background-size: cover;
   background-position: center;
 }
